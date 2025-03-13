@@ -1,0 +1,20 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPath": "/home/nathan-cai/esp/esp-idf",
+    "idf.pythonInstallPath": "/usr/bin/python3",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-ftdi.cfg"
+    ],
+    "idf.port": "/dev/ttyACM1",
+    "idf.toolsPath": "/home/nathan-cai/.espressif",
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32c3"
+    },
+    "idf.flashType": "UART",
+    "files.associations": {
+        "optional": "cpp",
+        "format": "cpp",
+        "variant": "cpp",
+        "*.inc": "cpp"
+    }
+}
