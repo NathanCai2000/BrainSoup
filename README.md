@@ -28,7 +28,7 @@ A simple replaceable tooth design using a #10 screw to mount the replaceable imp
 ## Electronic Design ##
 The current temporary solutions is mounting the accelerometer, ESP32C3, and periperal connects to a breadboard (With power rails removed). The future plan is to have custom PCBs with all components integrated made, however, this is a stop-gap solution.
 
-THe components currently in use are:
+The components currently in use are:
 Microcontroller: [ESP32C3-Zero](https://www.aliexpress.us/item/3256806984814685.html?spm=a2g0o.order_list.order_list_main.52.326318028jwmO5&gatewayAdapt=glo2usa)
 Accelerometer: [H3LIS331DL](https://learn.sparkfun.com/tutorials/h3lis331dl-accelerometer-breakout-hookup-guide/all)
 BEC: [Matek BECs](https://www.amazon.com/Adjustable-Step-Down-Regulator-Quadcopter-Martian/dp/B07MS1ND5M)
