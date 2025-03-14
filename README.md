@@ -29,13 +29,13 @@ A simple replaceable tooth design using a #10 screw to mount the replaceable imp
 The current temporary solutions is mounting the accelerometer, ESP32C3, and periperal connects to a breadboard (With power rails removed). The future plan is to have custom PCBs with all components integrated made, however, this is a stop-gap solution.
 
 The components currently in use are:
-Microcontroller: [ESP32C3-Zero](https://www.aliexpress.us/item/3256806984814685.html?spm=a2g0o.order_list.order_list_main.52.326318028jwmO5&gatewayAdapt=glo2usa)
-Accelerometer: [H3LIS331DL](https://learn.sparkfun.com/tutorials/h3lis331dl-accelerometer-breakout-hookup-guide/all)
-BEC: [Matek BECs](https://www.amazon.com/Adjustable-Step-Down-Regulator-Quadcopter-Martian/dp/B07MS1ND5M)
-Motor: [AKK2205 2300kv](https://www.amazon.com/AKK-RS2205-Brushless-2300KV-Quadcopter/dp/B07BQRGT7Q/ref=sr_1_1?crid=17NFJR02LURU5&dib=eyJ2IjoiMSJ9.QBtIv8oc_cwjyz66JMK629aizptPHuOzviAwD-WnXVytT0YmUVXHyBDeS9--9TGU0ETZJm4dyGM8YSAK49NEeA.BOj1R2SB9vsBAA7dxg4zjLoC4IKkh_DXQrjgS82ZTtg&dib_tag=se&keywords=akk+2205&qid=1741852395&sprefix=akk+2205%2Caps%2C114&sr=8-1)
-ESC: [JCR Mini 35A AM32 ESC](https://justcuzrobotics.com/products/jcr-rc-mini-35a-am32-esc-brushless)
-Receiver: [HGLRC ELRS 2.4GHz rx](https://www.amazon.com/HGLRC-ELRS-2-4G-Receiver-Omni-Directional/dp/B0CNRX33V6)
-Battery: [Tattu 3S 550mah](https://www.amazon.com/Tattu-R-Line-550mAh-11-1V-Battery/dp/B097BVB2DT/ref=sr_1_3?crid=1CTBCWBAEBJGI&dib=eyJ2IjoiMSJ9.cYdAnWNx5mW9nKq6lmRVbL_ecY8xlypoTYX4Mg5lFhfzaF1fpWa9jBGJblj5VUAjO_uCQfx0T-tmLMOkDrESKDTKcMnep3imjiZ4U1kZLzpIdSXH8p5TKtwpMsLNB8caiids1-FUXmS9OTD9M_KJmQYQ9Kjck9vY3SEGiqsgjJSV1QglKXlMrdgUcEV4c4MwThW92MVrmgQmqjY7KihDrsm67XFcXLg8zC5RRYquHsnbtk5GbMjTMYkZilaDPRrHY5TFv6vQM-ViUAtH1mquzh4SevaxZNILBLenHbL5kLgwq5Y0QezMBhBrQcg84Ms3M36Rw0BZ6rRCZySSs_eF15WjfFcnqB5Jf31pFe_9t9Y.G7IAnH51220AOkKTLIqyouFedGLT5Kw2iKMY3gl4iog&dib_tag=se&keywords=tattu+3s+550&qid=1741852572&s=toys-and-games&sprefix=tattu+3s+550%2Ctoys-and-games%2C96&sr=1-3)
+Microcontroller: [ESP32C3-Zero](https://www.aliexpress.us/item/3256806984814685.html?spm=a2g0o.order_list.order_list_main.52.326318028jwmO5&gatewayAdapt=glo2usa) 
+Accelerometer: [H3LIS331DL](https://learn.sparkfun.com/tutorials/h3lis331dl-accelerometer-breakout-hookup-guide/all) 
+BEC: [Matek BECs](https://www.amazon.com/Adjustable-Step-Down-Regulator-Quadcopter-Martian/dp/B07MS1ND5M) 
+Motor: [AKK2205 2300kv](https://www.amazon.com/AKK-RS2205-Brushless-2300KV-Quadcopter/dp/B07BQRGT7Q/ref=sr_1_1?crid=17NFJR02LURU5&dib=eyJ2IjoiMSJ9.QBtIv8oc_cwjyz66JMK629aizptPHuOzviAwD-WnXVytT0YmUVXHyBDeS9--9TGU0ETZJm4dyGM8YSAK49NEeA.BOj1R2SB9vsBAA7dxg4zjLoC4IKkh_DXQrjgS82ZTtg&dib_tag=se&keywords=akk+2205&qid=1741852395&sprefix=akk+2205%2Caps%2C114&sr=8-1) 
+ESC: [JCR Mini 35A AM32 ESC](https://justcuzrobotics.com/products/jcr-rc-mini-35a-am32-esc-brushless) 
+Receiver: [HGLRC ELRS 2.4GHz rx](https://www.amazon.com/HGLRC-ELRS-2-4G-Receiver-Omni-Directional/dp/B0CNRX33V6) 
+Battery: [Tattu 3S 550mah](https://www.amazon.com/Tattu-R-Line-550mAh-11-1V-Battery/dp/B097BVB2DT/ref=sr_1_3?crid=1CTBCWBAEBJGI&dib=eyJ2IjoiMSJ9.cYdAnWNx5mW9nKq6lmRVbL_ecY8xlypoTYX4Mg5lFhfzaF1fpWa9jBGJblj5VUAjO_uCQfx0T-tmLMOkDrESKDTKcMnep3imjiZ4U1kZLzpIdSXH8p5TKtwpMsLNB8caiids1-FUXmS9OTD9M_KJmQYQ9Kjck9vY3SEGiqsgjJSV1QglKXlMrdgUcEV4c4MwThW92MVrmgQmqjY7KihDrsm67XFcXLg8zC5RRYquHsnbtk5GbMjTMYkZilaDPRrHY5TFv6vQM-ViUAtH1mquzh4SevaxZNILBLenHbL5kLgwq5Y0QezMBhBrQcg84Ms3M36Rw0BZ6rRCZySSs_eF15WjfFcnqB5Jf31pFe_9t9Y.G7IAnH51220AOkKTLIqyouFedGLT5Kw2iKMY3gl4iog&dib_tag=se&keywords=tattu+3s+550&qid=1741852572&s=toys-and-games&sprefix=tattu+3s+550%2Ctoys-and-games%2C96&sr=1-3) 
 
 ## Software Design ##
 The software is written using the ESP-IDF with modified/ adapted arduino libraries. The firmware takes in CRSF inputs from the receiver, acceleration data from the accelerometer, and outputs 3D dshot600 packets using the ESP RMT components to control the motor ESC (set to 3D/bidirectional drive).
